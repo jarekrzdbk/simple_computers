@@ -127,10 +127,20 @@
     <comp lib="15" loc="(1410,640)" name="L_74LS173_6bdbcc89"/>
     <comp lib="16" loc="(1420,860)" name="L_74LS157_d074910b"/>
     <comp lib="6" loc="(1390,1020)" name="DipSwitch">
+      <a name="label" val="S2"/>
       <a name="number" val="1"/>
     </comp>
     <comp lib="6" loc="(1660,1000)" name="DipSwitch">
+      <a name="label" val="A"/>
       <a name="number" val="4"/>
+    </comp>
+    <comp lib="9" loc="(1494,580)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="MAR"/>
+    </comp>
+    <comp lib="9" loc="(1560,730)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="2 to 1 Multiplexer"/>
     </comp>
     <comp lib="9" loc="(645,150)" name="Text">
       <a name="font" val="SansSerif plain 16"/>
