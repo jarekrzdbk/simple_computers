@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project source="4.1.0" version="1.0">
+  This file is intended to be loaded by Logisim-evolution v4.1.0(https://github.com/logisim-evolution/).
+
+  <lib desc="#Wiring" name="0">
+    <tool name="Pin">
+      <a name="appearance" val="classic"/>
+    </tool>
+  </lib>
+  <lib desc="#Gates" name="1"/>
+  <lib desc="#Plexers" name="2"/>
+  <lib desc="#Arithmetic" name="3"/>
+  <lib desc="#FPArithmetic" name="4"/>
+  <lib desc="#Memory" name="5"/>
+  <lib desc="#I/O" name="6"/>
+  <lib desc="#Base" name="7">
+    <tool name="Text Tool">
+      <a name="font" val="SansSerif plain 12"/>
+    </tool>
+  </lib>
+  <main name="L_74LS126_5b2bd483"/>
+  <options>
+    <a name="gateUndefined" val="ignore"/>
+    <a name="simlimit" val="1000"/>
+    <a name="simrand" val="0"/>
+  </options>
+  <mappings>
+    <tool lib="7" map="Button2" name="Menu Tool"/>
+    <tool lib="7" map="Button3" name="Menu Tool"/>
+    <tool lib="7" map="Ctrl Button1" name="Menu Tool"/>
+  </mappings>
+  <toolbar>
+    <tool lib="7" name="Poke Tool"/>
+    <tool lib="7" name="Edit Tool"/>
+    <tool lib="7" name="Text Tool">
+      <a name="font" val="SansSerif plain 12"/>
+    </tool>
+    <sep/>
+    <tool lib="0" name="Pin"/>
+    <tool lib="0" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="labelloc" val="east"/>
+      <a name="type" val="output"/>
+    </tool>
+    <tool lib="1" name="NOT Gate">
+      <a name="size" val="20"/>
+    </tool>
+    <tool lib="1" name="AND Gate"/>
+    <tool lib="1" name="OR Gate"/>
+  </toolbar>
+  <circuit name="L_74LS126_5b2bd483">
+    <a name="appearance" val="custom"/>
+    <a name="circuit" val="L_74LS126_5b2bd483"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="simulationFrequency" val="1.0"/>
+    <appear>
+      <rect fill="#ffff00" height="120" stroke="#000000" stroke-width="2" width="60" x="50" y="50"/>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="10" font-weight="bold" text-anchor="start" x="54" y="64">1A</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="10" font-weight="bold" text-anchor="start" x="91" y="64">1Y</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="10" font-weight="bold" text-anchor="start" x="54" y="74">1G</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="10" font-weight="bold" text-anchor="start" x="54" y="104">2G</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="10" font-weight="bold" text-anchor="start" x="91" y="94">2Y</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="10" font-weight="bold" text-anchor="start" x="54" y="94">2A</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="10" font-weight="bold" text-anchor="start" x="54" y="164">4G</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="10" font-weight="bold" text-anchor="start" x="54" y="134">3G</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="10" font-weight="bold" text-anchor="start" x="54" y="154">4A</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="10" font-weight="bold" text-anchor="start" x="91" y="124">3Y</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="10" font-weight="bold" text-anchor="start" x="54" y="124">3A</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="10" font-weight="bold" text-anchor="start" x="91" y="154">4Y</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="12" font-weight="bold" text-anchor="start" x="51" y="46">74LS126</text>
+      <circ-anchor facing="east" x="80" y="110"/>
+      <circ-port dir="in" pin="120,100" x="50" y="60"/>
+      <circ-port dir="in" pin="120,120" x="50" y="70"/>
+      <circ-port dir="in" pin="120,150" x="50" y="90"/>
+      <circ-port dir="in" pin="120,170" x="50" y="100"/>
+      <circ-port dir="in" pin="120,200" x="50" y="120"/>
+      <circ-port dir="in" pin="120,220" x="50" y="130"/>
+      <circ-port dir="in" pin="120,250" x="50" y="150"/>
+      <circ-port dir="in" pin="120,270" x="50" y="160"/>
+      <circ-port dir="out" pin="160,100" x="110" y="60"/>
+      <circ-port dir="out" pin="160,150" x="110" y="90"/>
+      <circ-port dir="out" pin="160,200" x="110" y="120"/>
+      <circ-port dir="out" pin="160,250" x="110" y="150"/>
+    </appear>
+    <comp lib="0" loc="(120,100)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="A1"/>
+    </comp>
+    <comp lib="0" loc="(120,120)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="G1"/>
+    </comp>
+    <comp lib="0" loc="(120,150)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="A2"/>
+    </comp>
+    <comp lib="0" loc="(120,170)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="G2"/>
+    </comp>
+    <comp lib="0" loc="(120,200)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="A3"/>
+    </comp>
+    <comp lib="0" loc="(120,220)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="G3"/>
+    </comp>
+    <comp lib="0" loc="(120,250)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="A4"/>
+    </comp>
+    <comp lib="0" loc="(120,270)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="G4"/>
+    </comp>
+    <comp lib="0" loc="(160,100)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="Y1"/>
+      <a name="labelloc" val="east"/>
+      <a name="type" val="output"/>
+    </comp>
+    <comp lib="0" loc="(160,150)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="Y2"/>
+      <a name="labelloc" val="east"/>
+      <a name="type" val="output"/>
+    </comp>
+    <comp lib="0" loc="(160,200)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="Y3"/>
+      <a name="labelloc" val="east"/>
+      <a name="type" val="output"/>
+    </comp>
+    <comp lib="0" loc="(160,250)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="Y4"/>
+      <a name="labelloc" val="east"/>
+      <a name="type" val="output"/>
+    </comp>
+    <comp lib="1" loc="(150,100)" name="Controlled Buffer"/>
+    <comp lib="1" loc="(150,150)" name="Controlled Buffer"/>
+    <comp lib="1" loc="(150,200)" name="Controlled Buffer"/>
+    <comp lib="1" loc="(150,250)" name="Controlled Buffer"/>
+    <comp lib="7" loc="(125,60)" name="Text">
+      <a name="font" val="SansSerif bold 24"/>
+      <a name="text" val="74LS126"/>
+    </comp>
+    <wire from="(120,100)" to="(130,100)"/>
+    <wire from="(120,120)" to="(140,120)"/>
+    <wire from="(120,150)" to="(130,150)"/>
+    <wire from="(120,170)" to="(140,170)"/>
+    <wire from="(120,200)" to="(130,200)"/>
+    <wire from="(120,220)" to="(140,220)"/>
+    <wire from="(120,250)" to="(130,250)"/>
+    <wire from="(120,270)" to="(140,270)"/>
+    <wire from="(140,110)" to="(140,120)"/>
+    <wire from="(140,160)" to="(140,170)"/>
+    <wire from="(140,210)" to="(140,220)"/>
+    <wire from="(140,260)" to="(140,270)"/>
+    <wire from="(150,100)" to="(160,100)"/>
+    <wire from="(150,150)" to="(160,150)"/>
+    <wire from="(150,200)" to="(160,200)"/>
+    <wire from="(150,250)" to="(160,250)"/>
+  </circuit>
+</project>
