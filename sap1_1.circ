@@ -321,7 +321,7 @@
     </comp>
     <comp lib="9" loc="(1889,2793)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="Ooutput Register"/>
+      <a name="text" val="Output Register"/>
     </comp>
     <comp lib="9" loc="(245,2104)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
