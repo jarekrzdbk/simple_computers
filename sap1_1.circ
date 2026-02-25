@@ -110,7 +110,7 @@
     <a name="circuit" val="main"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
-    <comp lib="0" loc="(290,1890)" name="Tunnel">
+    <comp lib="0" loc="(200,1850)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="NOT_CE"/>
     </comp>
@@ -142,6 +142,9 @@
       <a name="facing" val="south"/>
       <a name="label" val="Ep"/>
     </comp>
+    <comp lib="1" loc="(290,1880)" name="AND Gate">
+      <a name="size" val="30"/>
+    </comp>
     <comp lib="13" loc="(630,470)" name="L_74LS107_f74dca52"/>
     <comp lib="13" loc="(630,650)" name="L_74LS107_f74dca52"/>
     <comp lib="14" loc="(800,510)" name="L_74LS126_5b2bd483"/>
@@ -149,25 +152,25 @@
     <comp lib="16" loc="(670,1170)" name="L_74LS157_d074910b"/>
     <comp lib="17" loc="(660,1550)" name="L_74LS189_c76b68cd"/>
     <comp lib="17" loc="(660,1790)" name="L_74LS189_c76b68cd"/>
+    <comp lib="6" loc="(190,1920)" name="DipSwitch">
+      <a name="label" val="RUN_PROG"/>
+      <a name="labelloc" val="west"/>
+      <a name="number" val="1"/>
+    </comp>
     <comp lib="6" loc="(220,1630)" name="DipSwitch"/>
     <comp lib="6" loc="(240,1140)" name="DipSwitch">
       <a name="label" val="A"/>
       <a name="number" val="4"/>
     </comp>
-    <comp lib="6" loc="(480,1940)" name="DipSwitch">
-      <a name="label" val="RUN_PROG"/>
-      <a name="labelloc" val="west"/>
-      <a name="number" val="1"/>
-    </comp>
-    <comp lib="6" loc="(530,1940)" name="DipSwitch">
-      <a name="label" val="S4"/>
-      <a name="number" val="1"/>
+    <comp lib="6" loc="(540,1950)" name="Button">
+      <a name="facing" val="north"/>
+      <a name="press" val="passive"/>
     </comp>
     <comp lib="6" loc="(640,1330)" name="DipSwitch">
       <a name="label" val="S2"/>
       <a name="number" val="1"/>
     </comp>
-    <comp lib="9" loc="(375,1967)" name="Text">
+    <comp lib="9" loc="(172,1896)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="S2"/>
     </comp>
@@ -207,8 +210,13 @@
     <wire from="(1130,20)" to="(1130,460)"/>
     <wire from="(1130,460)" to="(1130,680)"/>
     <wire from="(1130,680)" to="(1130,1580)"/>
+    <wire from="(200,1850)" to="(230,1850)"/>
+    <wire from="(200,1890)" to="(200,1920)"/>
+    <wire from="(200,1890)" to="(260,1890)"/>
     <wire from="(230,1580)" to="(230,1630)"/>
     <wire from="(230,1580)" to="(630,1580)"/>
+    <wire from="(230,1850)" to="(230,1870)"/>
+    <wire from="(230,1870)" to="(260,1870)"/>
     <wire from="(240,1570)" to="(240,1630)"/>
     <wire from="(240,1570)" to="(630,1570)"/>
     <wire from="(250,1100)" to="(250,1140)"/>
@@ -229,7 +237,7 @@
     <wire from="(280,1600)" to="(380,1600)"/>
     <wire from="(290,1610)" to="(290,1630)"/>
     <wire from="(290,1610)" to="(390,1610)"/>
-    <wire from="(290,1890)" to="(490,1890)"/>
+    <wire from="(290,1880)" to="(490,1880)"/>
     <wire from="(300,1620)" to="(300,1630)"/>
     <wire from="(300,1620)" to="(400,1620)"/>
     <wire from="(370,1590)" to="(370,1820)"/>
@@ -278,9 +286,8 @@
     <wire from="(470,640)" to="(610,640)"/>
     <wire from="(490,1600)" to="(490,1840)"/>
     <wire from="(490,1600)" to="(630,1600)"/>
-    <wire from="(490,1840)" to="(490,1890)"/>
+    <wire from="(490,1840)" to="(490,1880)"/>
     <wire from="(490,1840)" to="(630,1840)"/>
-    <wire from="(490,1890)" to="(490,1940)"/>
     <wire from="(520,230)" to="(520,400)"/>
     <wire from="(520,400)" to="(610,400)"/>
     <wire from="(520,680)" to="(1130,680)"/>
@@ -288,7 +295,7 @@
     <wire from="(520,990)" to="(630,990)"/>
     <wire from="(540,1610)" to="(540,1850)"/>
     <wire from="(540,1610)" to="(630,1610)"/>
-    <wire from="(540,1850)" to="(540,1940)"/>
+    <wire from="(540,1850)" to="(540,1950)"/>
     <wire from="(540,1850)" to="(630,1850)"/>
     <wire from="(540,800)" to="(540,940)"/>
     <wire from="(540,940)" to="(630,940)"/>
