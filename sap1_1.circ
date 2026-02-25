@@ -145,13 +145,27 @@
     <comp lib="1" loc="(290,1880)" name="AND Gate">
       <a name="size" val="30"/>
     </comp>
-    <comp lib="13" loc="(630,470)" name="L_74LS107_f74dca52"/>
-    <comp lib="13" loc="(630,650)" name="L_74LS107_f74dca52"/>
-    <comp lib="14" loc="(800,510)" name="L_74LS126_5b2bd483"/>
-    <comp lib="15" loc="(660,950)" name="L_74LS173_6bdbcc89"/>
-    <comp lib="16" loc="(670,1170)" name="L_74LS157_d074910b"/>
-    <comp lib="17" loc="(660,1550)" name="L_74LS189_c76b68cd"/>
-    <comp lib="17" loc="(660,1790)" name="L_74LS189_c76b68cd"/>
+    <comp lib="13" loc="(630,470)" name="L_74LS107_f74dca52">
+      <a name="label" val="C2"/>
+    </comp>
+    <comp lib="13" loc="(630,650)" name="L_74LS107_f74dca52">
+      <a name="label" val="C1"/>
+    </comp>
+    <comp lib="14" loc="(800,510)" name="L_74LS126_5b2bd483">
+      <a name="label" val="C3"/>
+    </comp>
+    <comp lib="15" loc="(660,950)" name="L_74LS173_6bdbcc89">
+      <a name="label" val="C4"/>
+    </comp>
+    <comp lib="16" loc="(670,1170)" name="L_74LS157_d074910b">
+      <a name="label" val="C5"/>
+    </comp>
+    <comp lib="17" loc="(660,1550)" name="L_74LS189_c76b68cd">
+      <a name="label" val="C7"/>
+    </comp>
+    <comp lib="17" loc="(660,1790)" name="L_74LS189_c76b68cd">
+      <a name="label" val="C6"/>
+    </comp>
     <comp lib="6" loc="(190,1920)" name="DipSwitch">
       <a name="label" val="RUN_PROG"/>
       <a name="labelloc" val="west"/>
@@ -164,6 +178,7 @@
     </comp>
     <comp lib="6" loc="(540,1950)" name="Button">
       <a name="facing" val="north"/>
+      <a name="label" val="READ_WRITE"/>
       <a name="press" val="passive"/>
     </comp>
     <comp lib="6" loc="(640,1330)" name="DipSwitch">
@@ -173,6 +188,14 @@
     <comp lib="9" loc="(172,1896)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="S2"/>
+    </comp>
+    <comp lib="9" loc="(326,1469)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="RAM"/>
+    </comp>
+    <comp lib="9" loc="(573,1925)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="S4"/>
     </comp>
     <comp lib="9" loc="(645,150)" name="Text">
       <a name="font" val="SansSerif plain 16"/>
