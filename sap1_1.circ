@@ -151,7 +151,7 @@
       <a name="label" val="NOT_L0"/>
     </comp>
     <comp lib="0" loc="(1390,3570)" name="Tunnel">
-      <a name="label" val="NOT_Lb"/>
+      <a name="label" val="NOT_LB"/>
     </comp>
     <comp lib="0" loc="(1390,3630)" name="Tunnel">
       <a name="label" val="Eu"/>
