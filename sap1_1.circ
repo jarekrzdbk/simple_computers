@@ -5,9 +5,7 @@
   <lib desc="#Wiring" name="0">
     <tool name="Splitter">
       <a name="appear" val="center"/>
-      <a name="facing" val="west"/>
-      <a name="fanout" val="4"/>
-      <a name="incoming" val="4"/>
+      <a name="facing" val="south"/>
     </tool>
     <tool name="Pin">
       <a name="appearance" val="classic"/>
@@ -75,12 +73,12 @@
   <lib desc="#BFH-Praktika" name="10"/>
   <lib desc="#Input/Output-Extra" name="11"/>
   <lib desc="#Soc" name="12"/>
-  <lib desc="file#74LS157.circ" name="13"/>
-  <lib desc="file#74LS173.circ" name="14"/>
-  <lib desc="file#74LS126.circ" name="15"/>
-  <lib desc="file#74LS189.circ" name="16"/>
-  <lib desc="file#74LS107.circ" name="17"/>
-  <lib desc="file#74LS83.circ" name="18"/>
+  <lib desc="file#74LS173.circ" name="13"/>
+  <lib desc="file#74LS126.circ" name="14"/>
+  <lib desc="file#74LS107.circ" name="15"/>
+  <lib desc="file#74LS83.circ" name="16"/>
+  <lib desc="file#74LS189.circ" name="17"/>
+  <lib desc="file#74LS157.circ" name="18"/>
   <main name="main"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
@@ -290,77 +288,77 @@
     <comp lib="1" loc="(290,1880)" name="AND Gate">
       <a name="size" val="30"/>
     </comp>
-    <comp lib="13" loc="(670,1170)" name="L_74LS157_d074910b">
-      <a name="label" val="C5"/>
-    </comp>
-    <comp lib="14" loc="(1410,770)" name="L_74LS173_6bdbcc89">
+    <comp lib="13" loc="(1410,770)" name="L_74LS173_6bdbcc89">
       <a name="label" val="C11"/>
     </comp>
-    <comp lib="14" loc="(1410,960)" name="L_74LS173_6bdbcc89">
+    <comp lib="13" loc="(1410,960)" name="L_74LS173_6bdbcc89">
       <a name="label" val="C10"/>
     </comp>
-    <comp lib="14" loc="(1520,2390)" name="L_74LS173_6bdbcc89">
+    <comp lib="13" loc="(1520,2390)" name="L_74LS173_6bdbcc89">
       <a name="label" val="C21"/>
     </comp>
-    <comp lib="14" loc="(1520,2590)" name="L_74LS173_6bdbcc89">
+    <comp lib="13" loc="(1520,2590)" name="L_74LS173_6bdbcc89">
       <a name="label" val="C20"/>
     </comp>
-    <comp lib="14" loc="(1520,2780)" name="L_74LS173_6bdbcc89">
+    <comp lib="13" loc="(1520,2780)" name="L_74LS173_6bdbcc89">
       <a name="label" val="C23"/>
     </comp>
-    <comp lib="14" loc="(1520,3000)" name="L_74LS173_6bdbcc89">
+    <comp lib="13" loc="(1520,3000)" name="L_74LS173_6bdbcc89">
       <a name="label" val="C22"/>
     </comp>
-    <comp lib="14" loc="(660,2090)" name="L_74LS173_6bdbcc89">
+    <comp lib="13" loc="(660,2090)" name="L_74LS173_6bdbcc89">
       <a name="label" val="C9"/>
     </comp>
-    <comp lib="14" loc="(660,2310)" name="L_74LS173_6bdbcc89">
+    <comp lib="13" loc="(660,2310)" name="L_74LS173_6bdbcc89">
       <a name="label" val="C8"/>
     </comp>
-    <comp lib="14" loc="(660,950)" name="L_74LS173_6bdbcc89">
+    <comp lib="13" loc="(660,950)" name="L_74LS173_6bdbcc89">
       <a name="label" val="C4"/>
     </comp>
-    <comp lib="15" loc="(1520,2030)" name="L_74LS126_5b2bd483">
+    <comp lib="14" loc="(1520,2030)" name="L_74LS126_5b2bd483">
       <a name="label" val="C18"/>
     </comp>
-    <comp lib="15" loc="(1640,1090)" name="L_74LS126_5b2bd483">
+    <comp lib="14" loc="(1640,1090)" name="L_74LS126_5b2bd483">
       <a name="label" val="C13"/>
     </comp>
-    <comp lib="15" loc="(1640,940)" name="L_74LS126_5b2bd483">
+    <comp lib="14" loc="(1640,940)" name="L_74LS126_5b2bd483">
       <a name="label" val="C12"/>
     </comp>
-    <comp lib="15" loc="(1770,1850)" name="L_74LS126_5b2bd483">
+    <comp lib="14" loc="(1770,1850)" name="L_74LS126_5b2bd483">
       <a name="label" val="C19"/>
     </comp>
-    <comp lib="15" loc="(800,510)" name="L_74LS126_5b2bd483">
+    <comp lib="14" loc="(800,510)" name="L_74LS126_5b2bd483">
       <a name="label" val="C3"/>
     </comp>
-    <comp lib="16" loc="(660,1550)" name="L_74LS189_c76b68cd">
-      <a name="label" val="C7"/>
-    </comp>
-    <comp lib="16" loc="(660,1790)" name="L_74LS189_c76b68cd">
-      <a name="label" val="C6"/>
-    </comp>
-    <comp lib="17" loc="(210,3530)" name="L_74LS107_f74dca52">
+    <comp lib="15" loc="(210,3530)" name="L_74LS107_f74dca52">
       <a name="label" val="C38"/>
     </comp>
-    <comp lib="17" loc="(210,3730)" name="L_74LS107_f74dca52">
+    <comp lib="15" loc="(210,3730)" name="L_74LS107_f74dca52">
       <a name="label" val="C37"/>
     </comp>
-    <comp lib="17" loc="(210,3930)" name="L_74LS107_f74dca52">
+    <comp lib="15" loc="(210,3930)" name="L_74LS107_f74dca52">
       <a name="label" val="C36"/>
     </comp>
-    <comp lib="17" loc="(630,470)" name="L_74LS107_f74dca52">
+    <comp lib="15" loc="(630,470)" name="L_74LS107_f74dca52">
       <a name="label" val="C2"/>
     </comp>
-    <comp lib="17" loc="(630,650)" name="L_74LS107_f74dca52">
+    <comp lib="15" loc="(630,650)" name="L_74LS107_f74dca52">
       <a name="label" val="C1"/>
     </comp>
-    <comp lib="18" loc="(1380,1530)" name="L_74LS83_a67a6f6d">
+    <comp lib="16" loc="(1380,1530)" name="L_74LS83_a67a6f6d">
       <a name="label" val="C16"/>
     </comp>
-    <comp lib="18" loc="(1600,1400)" name="L_74LS83_a67a6f6d">
+    <comp lib="16" loc="(1600,1400)" name="L_74LS83_a67a6f6d">
       <a name="label" val="C17"/>
+    </comp>
+    <comp lib="17" loc="(660,1550)" name="L_74LS189_c76b68cd">
+      <a name="label" val="C7"/>
+    </comp>
+    <comp lib="17" loc="(660,1790)" name="L_74LS189_c76b68cd">
+      <a name="label" val="C6"/>
+    </comp>
+    <comp lib="18" loc="(670,1170)" name="L_74LS157_d074910b">
+      <a name="label" val="C5"/>
     </comp>
     <comp lib="6" loc="(1650,2890)" name="LedBar"/>
     <comp lib="6" loc="(1730,3490)" name="DipSwitch">
@@ -502,29 +500,29 @@
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="Instruction Register"/>
     </comp>
-    <comp lib="9" loc="(313,3953)" name="Text">
+    <comp lib="9" loc="(310,3950)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="T6"/>
     </comp>
-    <comp lib="9" loc="(315,3402)" name="Text">
+    <comp lib="9" loc="(315,3400)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="T1"/>
     </comp>
-    <comp lib="9" loc="(316,3530)" name="Text">
+    <comp lib="9" loc="(315,3530)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="T2"/>
     </comp>
-    <comp lib="9" loc="(316,3629)" name="Text">
+    <comp lib="9" loc="(315,3625)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="T3"/>
     </comp>
-    <comp lib="9" loc="(316,3812)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="T5"/>
-    </comp>
-    <comp lib="9" loc="(318,3740)" name="Text">
+    <comp lib="9" loc="(315,3740)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="T4"/>
+    </comp>
+    <comp lib="9" loc="(315,3810)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="T5"/>
     </comp>
     <comp lib="9" loc="(325,1465)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
@@ -1232,7 +1230,9 @@
     <wire from="(280,1130)" to="(630,1130)"/>
     <wire from="(280,1600)" to="(280,1630)"/>
     <wire from="(280,1600)" to="(380,1600)"/>
-    <wire from="(280,3370)" to="(280,3480)"/>
+    <wire from="(280,3370)" to="(280,3410)"/>
+    <wire from="(280,3410)" to="(280,3480)"/>
+    <wire from="(280,3410)" to="(380,3410)"/>
     <wire from="(280,3510)" to="(280,3540)"/>
     <wire from="(280,3540)" to="(280,3560)"/>
     <wire from="(280,3540)" to="(370,3540)"/>
@@ -1248,9 +1248,7 @@
     <wire from="(290,1610)" to="(290,1630)"/>
     <wire from="(290,1610)" to="(390,1610)"/>
     <wire from="(290,1880)" to="(490,1880)"/>
-    <wire from="(290,3360)" to="(290,3410)"/>
-    <wire from="(290,3410)" to="(290,3460)"/>
-    <wire from="(290,3410)" to="(380,3410)"/>
+    <wire from="(290,3360)" to="(290,3460)"/>
     <wire from="(290,3570)" to="(290,3640)"/>
     <wire from="(290,3640)" to="(290,3660)"/>
     <wire from="(290,3640)" to="(360,3640)"/>
