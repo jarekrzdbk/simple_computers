@@ -107,10 +107,10 @@
       <circ-port dir="in" pin="80,410" x="50" y="140"/>
       <circ-port dir="in" pin="80,440" x="50" y="160"/>
       <circ-port dir="in" pin="80,470" x="50" y="170"/>
-      <circ-port dir="out" pin="630,520" x="120" y="120"/>
-      <circ-port dir="out" pin="630,540" x="120" y="130"/>
-      <circ-port dir="out" pin="630,560" x="120" y="140"/>
-      <circ-port dir="out" pin="650,500" x="120" y="110"/>
+      <circ-port dir="out" pin="730,520" x="120" y="120"/>
+      <circ-port dir="out" pin="730,540" x="120" y="130"/>
+      <circ-port dir="out" pin="730,560" x="120" y="140"/>
+      <circ-port dir="out" pin="750,500" x="120" y="110"/>
     </appear>
     <comp lib="0" loc="(120,440)" name="Tunnel">
       <a name="label" val="CS"/>
@@ -156,33 +156,33 @@
     <comp lib="0" loc="(500,520)" name="Tunnel">
       <a name="label" val="OE"/>
     </comp>
-    <comp lib="0" loc="(570,370)" name="Splitter">
+    <comp lib="0" loc="(670,370)" name="Splitter">
       <a name="appear" val="center"/>
       <a name="fanout" val="4"/>
       <a name="incoming" val="4"/>
     </comp>
-    <comp lib="0" loc="(630,520)" name="Pin">
+    <comp lib="0" loc="(730,520)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
       <a name="label" val="NOT_DO2"/>
       <a name="labelloc" val="east"/>
       <a name="type" val="output"/>
     </comp>
-    <comp lib="0" loc="(630,540)" name="Pin">
+    <comp lib="0" loc="(730,540)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
       <a name="label" val="NOT_DO3"/>
       <a name="labelloc" val="east"/>
       <a name="type" val="output"/>
     </comp>
-    <comp lib="0" loc="(630,560)" name="Pin">
+    <comp lib="0" loc="(730,560)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
       <a name="label" val="NOT_DO4"/>
       <a name="labelloc" val="east"/>
       <a name="type" val="output"/>
     </comp>
-    <comp lib="0" loc="(650,500)" name="Pin">
+    <comp lib="0" loc="(750,500)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
       <a name="label" val="NOT_DO1"/>
@@ -260,7 +260,7 @@
     <comp lib="1" loc="(480,370)" name="Controlled Buffer">
       <a name="width" val="4"/>
     </comp>
-    <comp lib="1" loc="(560,370)" name="Controlled Inverter">
+    <comp lib="1" loc="(550,370)" name="Controlled Buffer">
       <a name="width" val="4"/>
     </comp>
     <comp lib="5" loc="(200,100)" name="RAM">
@@ -316,20 +316,20 @@
     <wire from="(490,280)" to="(490,370)"/>
     <wire from="(490,370)" to="(530,370)"/>
     <wire from="(540,380)" to="(540,430)"/>
-    <wire from="(560,370)" to="(570,370)"/>
-    <wire from="(590,350)" to="(630,350)"/>
-    <wire from="(590,360)" to="(610,360)"/>
-    <wire from="(590,370)" to="(600,370)"/>
-    <wire from="(590,380)" to="(590,560)"/>
-    <wire from="(590,560)" to="(630,560)"/>
-    <wire from="(600,370)" to="(600,540)"/>
-    <wire from="(600,540)" to="(630,540)"/>
-    <wire from="(610,360)" to="(610,370)"/>
-    <wire from="(610,370)" to="(620,370)"/>
-    <wire from="(620,370)" to="(620,520)"/>
-    <wire from="(620,520)" to="(630,520)"/>
-    <wire from="(630,350)" to="(630,500)"/>
-    <wire from="(630,500)" to="(650,500)"/>
+    <wire from="(550,370)" to="(670,370)"/>
+    <wire from="(690,350)" to="(730,350)"/>
+    <wire from="(690,360)" to="(710,360)"/>
+    <wire from="(690,370)" to="(700,370)"/>
+    <wire from="(690,380)" to="(690,560)"/>
+    <wire from="(690,560)" to="(730,560)"/>
+    <wire from="(700,370)" to="(700,540)"/>
+    <wire from="(700,540)" to="(730,540)"/>
+    <wire from="(710,360)" to="(710,370)"/>
+    <wire from="(710,370)" to="(720,370)"/>
+    <wire from="(720,370)" to="(720,520)"/>
+    <wire from="(720,520)" to="(730,520)"/>
+    <wire from="(730,350)" to="(730,500)"/>
+    <wire from="(730,500)" to="(750,500)"/>
     <wire from="(80,150)" to="(200,150)"/>
     <wire from="(80,190)" to="(120,190)"/>
     <wire from="(80,260)" to="(110,260)"/>
